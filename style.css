@@ -1,12 +1,20 @@
 body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+
 }
 img{
     width: 15%;
+    transition: 5s;
 }
+img:hover{
+    width: 25%;
+}
+
 .titulo{
     background-color: rgb(91, 28, 107);
-    font-size: 300%;
+    font-size: 400%;
     color: aliceblue;
 }
 
@@ -25,4 +33,17 @@ img{
 
 .gg{
     background-color: rgb(91, 28, 107);
+}
+
+.java{
+    color: rebeccapurple;
+}
+
+.caixa{
+
+    color: black;
+}
+
+.gg{
+    text-align: left;
 }
