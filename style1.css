@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    background-image: url("imagens2/savannah.jpg");
+}
+
+.caixa{
+    background-color: rgb(255, 255, 255, 0.3);
+}
+    
