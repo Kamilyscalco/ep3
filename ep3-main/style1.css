@@ -2,21 +2,40 @@
     margin: 0%;
 }
 body{
-    display: grid;
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 35px;
     background-image: url("imagens/savannah.jpg");
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab cab"
+        "sec sec pri pri"
+        "rod rod rod rod";
+    grid-gap: 5px;
+    grid-template-columns: 50% auto auto;
+    grid-template-rows: auto 1000px auto;
+}
+
+
+header{
+    grid-area: cab;
+}
+aside{
+    grid-area: sec;
+    padding-bottom: 50px;
+}
+main{
+    grid-area: pri;
+}
+footer{
+    grid-area: rod;
+    margin-top: 350px;
 }
 
 .caixa{
     background-color: rgba(5, 5, 5, 0.658);
     border-radius: 25px;
     padding-bottom: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-bottom: 30px;
-    margin-top: 30px;
 }
 
 .texto{
@@ -25,7 +44,7 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.ll{
+.leaobranco{
     text-align: center;
 }
 
